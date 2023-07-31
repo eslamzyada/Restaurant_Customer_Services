@@ -1,0 +1,248 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 13, 2023, 3:59:49 PM
+    Author     : MS
+*/
+
+.signUp_Button {
+    -fx-background-color: #203A43; 
+    -fx-text-fill: #fff; 
+    -fx-font-size: 20px; 
+    -fx-font-weight: bold;
+    -fx-padding: 5px; 
+    -fx-background-radius: 30px;
+    -fx-border-color: #203A43;
+    -fx-border-radius: 30px;
+    -fx-border-width: 2px;
+}
+.signUp_Button:hover {
+    -fx-cursor: hand; 
+    -fx-background-color: #fff;
+    -fx-border-color: #b46a1c;
+    -fx-border-radius: 30px;
+    -fx-border-width: 2px;
+    -fx-text-fill: #b46a1c; 
+}
+
+.login_Button{
+    -fx-text-fill: #000;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-color: null;
+}
+.login_Button:hover{
+    -fx-cursor: hand;
+    -fx-text-fill: #b46a1c;
+}
+.offers_Button{
+    -fx-text-fill: #000;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-color: null;
+}
+.offers_Button:hover{
+    -fx-cursor: hand;
+    -fx-text-fill: #b46a1c;
+}
+.location_Button {
+    -fx-background-color: null; 
+    -fx-text-fill: #000; 
+    -fx-font-size: 20px; 
+    -fx-padding: 10px 10px 10px 10px; 
+    -fx-background-radius: 30px;
+    -fx-border-color: #b46a1c;
+    -fx-border-radius: 30px;
+    -fx-border-width: 2px;
+}
+.location_Button:hover {
+    -fx-cursor: hand; 
+    -fx-background-color: #fff;
+    -fx-border-color: #ee8210;
+    -fx-border-radius: 30px;
+    -fx-border-width: 2px;
+    -fx-text-fill: #000; 
+}
+.search_Button {
+    -fx-background-color: linear-gradient(to right, #b46a1c, #ee8210);; 
+    -fx-text-fill: #fff; 
+    -fx-font-size: 20px; 
+    -fx-font-weight: bold;
+    -fx-padding: 10px 10px 10px 10px; 
+    -fx-background-radius: 30px;
+    -fx-border-color: #b46a1c;
+    -fx-border-radius: 30px;
+    -fx-border-width: 2px;
+}
+.search_Button:hover {
+    -fx-cursor: hand; 
+    -fx-background-color: #fff;
+    -fx-text-fill: #000; 
+}
+.back_button{
+    -fx-background-color: null;
+    -fx-background-radius: 30px;
+    
+}
+.back_button:hover{
+    -fx-cursor: hand;
+    -fx-background-color: #EEEDE7;
+}
+
+.city-textfield {
+    -fx-background-color: #F3DBB4;
+    -fx-background-radius: 20px;
+    -fx-border-color: #2D2D2C;
+    -fx-border-radius: 20px;
+    -fx-padding: 5px;
+    -fx-text-fill: #2D2D2C;
+    -fx-font-size: 14px;
+}
+.city-textfield:hover {
+    -fx-background-color: #fae4c9;
+}
+.back_location_button{
+    -fx-background-color: null;
+    -fx-background-radius: 30px;
+    
+}
+.back_location_button:hover{
+    -fx-cursor: hand;
+    -fx-background-color: #F3DBB4;
+}
+.submit_Button {
+    -fx-text-fill: #fed5a1;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-color: #2F2018;
+    -fx-background-radius: 30px;
+    -fx-border-color: #756457;
+    -fx-border-radius: 30px;
+}
+
+.submit_Button:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #f8e9d7;
+    -fx-border-color: #2F2018;
+    -fx-text-fill: #3B3C38;
+}
+
+.login_field {
+    -fx-background-color: #F3E9D9;
+    -fx-background-radius: 30px;
+    -fx-border-color: #ffdcb1;
+    -fx-border-radius: 30px;
+    -fx-padding: 5px;
+    -fx-text-fill: #2D2D2C;
+    -fx-font-size: 14px;
+}
+.login_field:hover{
+    -fx-background-color: #f8e9d7;
+    -fx-cursor: text;
+}
+
+.login_Page_Button {
+    -fx-background-color: #3B3C38; 
+    -fx-text-fill: #fff; 
+    -fx-font-size: 20px; 
+    -fx-font-weight: bold;
+    -fx-padding: 5px; 
+    -fx-background-radius: 30px;
+    -fx-border-color: #756457;
+    -fx-border-radius: 30px;
+    -fx-border-width: 2px;
+}
+.login_Page_Button:hover {
+    -fx-cursor: hand; 
+    -fx-background-color: #F1ECE4;
+    -fx-border-color: #D5BBA9;
+    -fx-border-radius: 30px;
+    -fx-border-width: 2px;
+    -fx-text-fill: #3B3C38; 
+}
+.signUp_HyperLink{
+    -fx-background-color: null;
+    -fx-text-fill: #3B3C38;
+}
+.signUp_HyperLink:hover{
+    -fx-cursor:hand;
+    -fx-text-fill:#F1ECE4;
+}
+
+.social_Buttons{
+    -fx-background-color: null;
+    -fx-background-radius: 100px;
+}
+.social_Buttons:hover{
+    -fx-cursor: hand;
+    -fx-background-color: #F3E9D9;
+}
+.submit_Signup_Button {
+    -fx-text-fill: #F3E9D9;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-color: #3B3C38;
+    -fx-background-radius: 30px;
+    -fx-border-color: #785034;
+    -fx-border-radius: 30px;
+}
+
+.submit_Signup_Button:hover {
+    -fx-cursor: hand;
+    -fx-text-fill: #3B3C38;
+    -fx-background-color: #f8e9d7;
+}
+.list_Buttons{
+    -fx-background-color: null;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #122620;
+}
+.list_Buttons:hover{
+    -fx-background-color:#B68D40;
+    -fx-text-fill:#F3DBB4;
+    -fx-cursor:hand;
+}
+
+.crud_Buttons{
+    -fx-background-color: null;
+    -fx-background-radius: 360px;
+    -fx-text-fill: #122620;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+.crud_Buttons:hover{
+    -fx-background-color:  #122620;
+    -fx-text-fill: #F4EBD0;
+}
+.crud_field{
+    -fx-background-color: #ead5a9;
+    -fx-background-radius: 30px;
+    -fx-text-fill: #122620;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}
+.crud_field:hover{
+    -fx-background-color: #ecdab2;
+    -fx-cursor:text;
+}
+.search_field{
+    -fx-background-color: #F4EBD0;
+    -fx-background-radius: 30px;
+    -fx-text-fill: #122620;
+    -fx-font-size: 14px;
+}
+.search_field:hover{
+    -fx-background-color: #F1ECE4;
+    -fx-cursor:text;
+}
+.dishes_Buttons{
+    -fx-background-color: null;
+    -fx-background-radius: 20px;
+}
+.dishes_Buttons:hover{
+    -fx-background-color: #F3DBB4;
+    -fx-cursor: hand;
+}
